@@ -9,9 +9,11 @@ if system_type == "Linux": pathlib.WindowsPath = pathlib.PosixPath
 
 
 #title
-st.title("DONIYORBEK TUGULGAN KUNINIZ BILAN TABRIKLIMAN ")
-st.text("Assalomu aleykum Doniyor aka tuģulgan kuniz bilan tabrikliman umriz uzoq bòsin taniz soģ bòsin bunaqa yoshlani kòpini korib yuring🥳")
-#rasmni joylash
+st.title("Living creatures classificator model")
+st.text("This website is made to separate all living creatures(from people through to insects)"
+        " into  four big  classes: Mammals, Birds, Fish,")
+
+# posting image
 file = st.file_uploader('Image load')
 if file:
     st.image(file)
