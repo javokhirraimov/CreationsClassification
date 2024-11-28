@@ -2,7 +2,7 @@ import streamlit as st
 from fastai.vision.all import *
 import plotly.express as px
 import pathlib
-from platform import *
+from platform
 import os
 
 system_type = platform.system()
