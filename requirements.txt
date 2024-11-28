@@ -1,4 +1,5 @@
 fastai==2.7.18
-plotly==5.5.0
-numpy
-pandas
+plotly==5.24.1
+streamlit==1.40.2
+numpy==2.0.2
+
