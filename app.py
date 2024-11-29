@@ -10,11 +10,11 @@ if system_type == "Linux": pathlib.WindowsPath = pathlib.PosixPath
 
 #title
 st.title("Living creatures classificator model")
-st.text("This website is made to separate all living creatures(from people through to insects)"
-        " into  four big  classes: Mammals, Birds, Fish,")
+st.text("This website is made to separate all living creatures(from people through insects)"
+        " into  four big  classes: Mammals, Birds, Fish, Insect")
 
 # posting image
-file = st.file_uploader('Image load')
+file = st.file_uploader('Load the image')
 if file:
     st.image(file)
     #PIL convert
